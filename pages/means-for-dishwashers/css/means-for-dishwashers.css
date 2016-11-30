@@ -1,0 +1,250 @@
+a:link {
+    text-decoration: none;
+}
+
+.none {
+    display: none;
+}
+
+/*Text Styles*/
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-weight {
+    font-weight: bold;
+}
+
+.features-oneline-text {
+    font-size: 28px;
+    line-height: 31px;
+}
+
+.features-pre-form-text {
+    font-size: 28px;
+    line-height: 31px;
+}
+/*Text Styles*/
+
+/*Form Styles*/
+.section-1-form {
+    margin-top: 20px;
+}
+
+.form-input {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 32px;
+    padding: 0 5px;
+    border: 1px solid black;
+}
+
+.section-1-form-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #E5CD0C;
+    border: 2px solid #DBAB20;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Form Styles*/
+
+/*Sections Styles*/
+.section-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #333333;
+    line-height: 43px;
+    text-align: center;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.section-description-left-60 {
+    width: 60%;
+    float: left;
+}
+
+.section-description-right-40 {
+    width: 40%;
+    float: left;
+}
+
+
+.section-description-70 {
+    width: 70%;
+    float: left;
+    
+}
+
+.section-description-30 {
+    width: 30%;
+    float: left;
+    
+}
+
+.section-description-38 {
+    width: 38%;
+    float: left;
+    
+}
+
+.section-description-57 {
+    width: 57%;
+    float: left;
+    
+}
+
+.section-description-40 {
+    width: 40%;
+    float: left;
+    
+}
+
+.section-description-60 {
+    width: 60%;
+    float: left;
+    
+}
+
+.section-description-20 {
+    width: 20%;
+    float: left;
+    
+}
+
+.section-description {
+    padding: 20px 0px;
+}
+
+.section-features-padding {
+    height: 500px;
+    text-outline: 165px;
+}
+
+.catal .section-features-top-1 {
+    top: 165px;
+}
+
+.section-features-title {
+    height: 100px;
+}
+
+.catal .catal-wrap > div.section-features-some-feature {
+    border: none;
+}
+
+.section-features-button-link {
+    display: block;
+    font-size: 17px;
+    padding: 13px 0px;
+    margin: 15px auto;
+    width: 313px;
+    padding-right: 10%;
+    background: transparent url("../images/01.png") no-repeat center center;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.section-features-button-link:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.section-features,
+.section-about-company {
+    width: 1000px;
+    margin-left: 160px;
+}
+
+.advantages-list {
+    text-align: justify;
+}
+
+.advantage-item {
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
+}
+
+.section-advantages-padding {
+    height: 650px;
+}
+
+.catal .catal-wrap > div .means-for-dishwashers-submit-request {
+    font-size: 17px;   
+    padding-left: 60px;
+}
+
+.means-for-dishwashers-catalog-wrapper {
+    height: 1815px;
+}
+
+.catal .means-for-dishwashers-catalog {
+    top: 120px;
+}
+
+#page {
+    min-height: unset;
+}
+
+.section-about-company-wrapper,
+.section-partners-wrapper {
+    margin-top: 20px;
+}
+
+.section-about-company-description {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.masonry-grid-about-h50 {
+    height: 95px;
+}
+
+.masonry-grid-about-h100 {
+    height: 200px;
+}
+
+.masonry-grid-item, .image-wrapper {
+  overflow: hidden;
+    position: relative;
+    margin-top: 10px;    
+    margin-left: 10px;    
+}
+
+.masonry-grid-item-image, .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;    
+}
+
+.about-company-height {
+    height: auto;
+}
+
+.partnet-item {
+    height: 100px;
+    margin: 0;    
+}
