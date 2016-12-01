@@ -214,10 +214,11 @@ a:visited {
     font-family: '__Myriad Pro_5';
 }
 
+/*ПОЛУЧИТЬ ПОЛНЫЙ ПРАЙС-ЛИСТ - кнопка*/
 #pamphletu506 {
     margin-top: 0;
     margin-bottom: 100px;
-    top: 1355px;
+    top: 1490px;
 }
 
 .advantages-list {
@@ -306,14 +307,18 @@ a:visited {
 }
 
 /*First screen*/
-.main-nav {    
+#pu2029 {
+
+}
+
+.main-nav {
     height: 88px;
-    
     position: fixed;
-    left: 39%;
+    left: 50%;
     top: 0;
     z-index: 10000;
-    width: 30%;
+    width: 560px;
+    margin-left: -245px;
 }
 
 .main-nav-item {
@@ -323,11 +328,15 @@ a:visited {
 }
 
 .main-nav-item:nth-child(1) {
-    width: 23%;
+    width: 26%;
+}
+
+.main-nav-item:nth-child(2) {
+    width: 35%;
 }
 
 .main-nav-item:nth-child(3) {
-    width: 40%;
+    width: 33%;
 }
 
 .main-nav-list {
@@ -352,8 +361,8 @@ a.main-nav-link:hover {
 }
 
 #u492-6 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 42px;
+    line-height: 42px;
 }
 
 #u2038-4 {
@@ -377,7 +386,7 @@ a.main-nav-link:hover {
 }
 
 #u478 {
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .features-oneline-text {
