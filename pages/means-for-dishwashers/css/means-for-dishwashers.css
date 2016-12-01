@@ -1,5 +1,10 @@
 a:link {
     text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 .none {
@@ -30,6 +35,7 @@ a:link {
 .features-oneline-text {
     font-size: 28px;
     line-height: 31px;
+    margin-bottom: 10px;
 }
 
 .features-pre-form-text {
@@ -94,8 +100,12 @@ a:link {
 
 .section-description-30 {
     width: 30%;
+    float: left;    
+}
+
+.section-description-33 {
+    width: 33%;
     float: left;
-    
 }
 
 .section-description-38 {
@@ -124,12 +134,21 @@ a:link {
 
 .section-description-20 {
     width: 20%;
-    float: left;
-    
+    float: left;    
+}
+
+.section-description-55 {
+    width: 55%;
+    float: left;    
+}
+
+.section-description-43 {
+    width: 43%;
+    float: left;    
 }
 
 .section-description {
-    padding: 20px 0px;
+    padding: 30px 0px 0px;
 }
 
 .section-features-padding {
@@ -167,9 +186,38 @@ a:link {
 }
 
 .section-features,
-.section-about-company {
+.section-about-company,
+.section-seo,
+.section-types-of-washing-machines {
     width: 1000px;
     margin-left: 160px;
+}
+
+.types-of-washing-machines-list {
+    margin-top: 15px;
+    padding: 0px 10px;
+    margin-bottom: 100px;
+}
+
+.types-of-washing-machines-image {
+    display: block;
+    height: 200px;
+    margin: 0px;
+}
+
+.types-of-washing-machines-description {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+    line-height: 22px;
+    font-family: '__Myriad Pro_5';
+}
+
+#pamphletu506 {
+    margin-top: 0;
+    margin-bottom: 100px;
+    top: 1355px;
 }
 
 .advantages-list {
@@ -194,7 +242,7 @@ a:link {
 }
 
 .means-for-dishwashers-catalog-wrapper {
-    height: 1815px;
+    height: 1620px;
 }
 
 .catal .means-for-dishwashers-catalog {
@@ -206,7 +254,9 @@ a:link {
 }
 
 .section-about-company-wrapper,
-.section-partners-wrapper {
+.section-partners-wrapper,
+.section-seo-wrapper,
+.section-types-of-washing-machines-wrapper {
     margin-top: 20px;
 }
 
@@ -240,7 +290,9 @@ a:link {
     max-height: 100%;    
 }
 
-.about-company-height {
+.about-company-height,
+.seo-height,
+.types-of-washing-machines-height {
     height: auto;
 }
 
@@ -248,3 +300,161 @@ a:link {
     height: 100px;
     margin: 0;    
 }
+
+#pu3931-7 {
+    margin-top: 60px;
+}
+
+/*First screen*/
+.main-nav {    
+    height: 88px;
+    
+    position: fixed;
+    left: 39%;
+    top: 0;
+    z-index: 10000;
+    width: 30%;
+}
+
+.main-nav-item {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+}
+
+.main-nav-item:nth-child(1) {
+    width: 23%;
+}
+
+.main-nav-item:nth-child(3) {
+    width: 40%;
+}
+
+.main-nav-list {
+    margin-top: 29px;    
+}
+
+a.main-nav-link {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a.main-nav-link:hover {
+    color: #FFFF00;
+}
+
+#u492-3 {
+    font-size: 24px;
+}
+
+#u492-6 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#u2038-4 {
+    left: 55px;    
+}
+#menuu2032 {
+    width: 44%;
+}
+
+#u2054 {
+    width: 160px;
+}
+
+#u2033 {
+    left: 305px;
+    width: 260px;
+}
+
+#u2058-4 {
+    width: 130px;
+}
+
+#u478 {
+    height: 100vh;
+}
+
+.features-oneline-text {
+    font-size: 24px;
+}
+
+#u478_align_to_page {
+    padding-top: 100px;
+}
+
+#u492-10 {
+    margin-left: 10px;
+}
+
+#u492-6 {
+    width: 98%;
+}
+
+.form-wrapper {
+    margin: 0px 60px;
+    padding: 30px 0px;
+    background-color: #0092DB;
+}    
+
+#pamphletu1948 {
+    width: 1040px;
+}
+
+#u1958 {
+    left: -10px;
+}
+
+
+
+.footer-menu-list {
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.footer-menu-item {
+    margin-bottom: 10px;
+}
+
+a.footer-menu-link {
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+}
+
+/*Seo text*/
+.seo-row-height {
+    height: 200px;
+}
+
+#u1958 {
+    width: 210px;
+    left: -10px;
+}
+
+#u1957 {
+    padding: 20px 0px;
+}
+
+#u1484-4 {
+    left: 300px;
+}
+/*Seo text*/
+
+/*
+about-company
+catalog-dishwashers
+how
+*/

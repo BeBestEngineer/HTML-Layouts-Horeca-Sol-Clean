@@ -1,0 +1,48 @@
+.means-for-dishwashers {
+    display: block;
+    float: none;
+}
+
+.section-description-30 {
+    width: 30%;
+    float: left;    
+}
+
+#pamphletu1948 {
+    width: 1040px;
+}
+
+.footer-menu-list {
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.footer-menu-item {
+    margin-bottom: 10px;
+}
+
+a.footer-menu-link {
+    font-family: open-sans, sans-serif;
+font-weight: 700;
+    font-size: 14px;
+line-height: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+}
+
+#u1958 {
+    width: 210px;
+    left: -10px;
+}
+
+#u1957 {
+    padding: 20px 0px;
+}
+
+#u1484-4 {
+    left: 300px;
+}
