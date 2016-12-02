@@ -1,13 +1,10 @@
 <?php
-//    echo ($_POST['name']);
-//    echo ($_POST['email']);
-
     $name = $_POST['name'];
     $email = $_POST['email'];
 
     $response_after_send_message = array ();
 
-    $text_of_letter = "Прошу отправить на мою почту - ".$email." информацию, о том как я могу аолцчить образец Вашей продукции. <br> С уважением, ".$name;
+    $text_of_letter = "Прошу отправить на мою почту - ".$email." информацию, о том как я могу получить образец Вашей продукции. С уважением, ".$name;
 
     if ( mail("385898sw@gmail.com", "Horeca SolClean", $text_of_letter ) ) {
         $response_after_send_message['status'] = 'success';

@@ -174,17 +174,17 @@ var __adobewebfontsappname__ = "muse";
               <form class="section-1-form" role="form" id="get-a-sample-form">
                <div class="form-group">
                 <label for="get-a-sample-form-name">Ваше имя</label>
-                <input type="text" class="form-control form-input" id="get-a-sample-form-name" placeholder="Имя" data-validation="custom" data-validation-regexp="^[а-яА-ЯёЁ]+$">
+                <input type="text" class="form-control form-input" id="get-a-sample-form-name" placeholder="Имя" data-validation="custom" data-validation-regexp="^[а-яА-ЯёЁ]+$" data-validation-error-msg="Введите Ваше имя">
                </div>
-               <div class="form-group">
+               <div class="form-group ">
                 <label for="get-a-sample-form-email">e-mail</label>
-                <input type="text" class="form-control form-input" id="get-a-sample-form-email" placeholder="mail@post.ru" data-validation="email">
+                <input type="text" class="form-control form-input" id="get-a-sample-form-email" placeholder="mail@post.ru" data-validation="email" data-validation-error-msg="Введите Ваш e-mail">
                </div>
                <input type="submit" class="btn btn-default section-1-form-submit text-upper text-weight" value="Оставить заявку">
-               <div class="after-submit"></div>
+
                <div class="submit-result">
                 <p class="submit-result-message" id="success" style="display: none;">Заявка отправлена</p>
-                <p class="submit-result-message" id="error" style="display: none;">Заявка не отправлена,<br> попробуйте отправить ешё раз</p>
+                <p class="submit-result-message" id="error" style="display: none;">Заявка не отправлена, попробуйте ешё раз</p>
                </div>
               </form>
              </div>

@@ -8,7 +8,12 @@ $.validate({
     form : '#get-a-sample-form',
     
     scrollToTopOnError : false,
-    borderColorOnError : '#a35555',
+    
+    errorElementClass : 'get-a-sample-form-error',
+    errorMessageClass : 'get-a-sample-form-error-message',
+    borderColorOnError : '#000',
+    
+    
         
     onSuccess : function($form) {       
         
@@ -19,16 +24,20 @@ $.validate({
           data: { 
               "name": $('#get-a-sample-form-name').val(),
               "email": $('#get-a-sample-form-email').val()
+          },
+        
+          success:function(data){
+              if ( data['status'] == 'success' ) {
+                  $("#success").show().fadeIn(1000).delay( 2000 ).fadeOut('slow'); //=== Show Success Message==
+                  $($form).get(0).reset();
+              } else {
+                  $("#error").show().fadeIn(1000).delay( 2000 ).fadeOut('slow'); //===Show Error Message====
+              }         
+          },
+          error:function(data){
+            $("#error").show().fadeIn(1000).delay( 2000 ).fadeOut('slow'); //===Show Error Message====
           }
-                
-          success: function(data) {
-           
-          },
-    
-          error: function(data) {
             
-          },
-    
         });
         
       return false; // Will stop the submission of the form

@@ -49,13 +49,18 @@ a:visited {
     margin-top: 20px;
 }
 
+.form-group {
+    position: relative;
+}
+
 .form-input {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto 30px;
     width: 200px;
     height: 32px;
     padding: 0 5px;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
 .section-1-form-submit {
@@ -69,11 +74,7 @@ a:visited {
 }
 
 .help-block {
-    color: #E5CD0C;
-}
-
-.after-submit {
-    margin-top: 10px;
+    color: #FFFF00;
 }
 
 .submit-result {
@@ -84,7 +85,21 @@ a:visited {
     position: absolute;
     left: 0;
     right: 0;
+    top: 9px;
+    color: #FFFF00;
 }
+
+.get-a-sample-form-error {
+    border: 2px solid #FFFF00;
+}
+
+.get-a-sample-form-error-message {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    left: 0;
+}
+
 /*Form Styles*/
 
 /*Sections Styles*/
@@ -472,11 +487,11 @@ a.main-nav-link:hover {
 
 .form-wrapper {
     margin: 0px 60px;
-    padding: 30px 0px;
+    padding: 30px 0px 44px;
     background-color: #0092DB;
 
     position: relative;
-    top: -155px;
+    top: -195px;
     right: -40px;
 }    
 
