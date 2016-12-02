@@ -67,6 +67,24 @@ a:visited {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.help-block {
+    color: #E5CD0C;
+}
+
+.after-submit {
+    margin-top: 10px;
+}
+
+.submit-result {
+    position: relative;
+}
+
+.submit-result-message {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
 /*Form Styles*/
 
 /*Sections Styles*/
@@ -199,10 +217,15 @@ a:visited {
     margin-bottom: 100px;
 }
 
+.types-of-washing-machines-item:nth-child(3) {
+    width: 34%;
+}
+
 .types-of-washing-machines-image {
     display: block;
     height: 200px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .types-of-washing-machines-description {
@@ -218,19 +241,43 @@ a:visited {
 #pamphletu506 {
     margin-top: 0;
     margin-bottom: 100px;
-    top: 1490px;
+    top: 1100px;
+}
+
+#u4793-4 {
+    color: #333333;
 }
 
 .advantages-list {
     text-align: justify;
 }
 
-.advantage-item {
+.advantage-item, .advantage-text {
     margin-top: 15px;
     font-size: 17px;
     line-height: 26px;
     font-family: '__Myriad Pro_5';
     font-weight: 400;
+    position: relative;
+}
+
+.advantage-item-number:before {
+    content: "\f05c";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 40px;
+    color: #F15A24;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+}
+
+.advantage-item-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.advantage-item-text {
+    margin-left: 50px;
 }
 
 .section-advantages-padding {
@@ -308,7 +355,7 @@ a:visited {
 
 #page_position_content {
     width: 100%;
-    
+
     float: none;
 }
 
@@ -325,7 +372,7 @@ a:visited {
     padding-bottom: 0;
     height: 90px;
     position: fixed;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .main-nav {
@@ -378,8 +425,8 @@ a.main-nav-link:hover {
 }
 
 #u492-6 {
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 #u2038-4 {
@@ -403,7 +450,7 @@ a.main-nav-link:hover {
 }
 
 #u478 {
-    /*height: 100vh;*/
+    height: 714px;
 }
 
 .features-oneline-text {
@@ -419,13 +466,18 @@ a.main-nav-link:hover {
 }
 
 #u492-6 {
-    width: 98%;
+    text-align: left;
+    width: 67%;
 }
 
 .form-wrapper {
     margin: 0px 60px;
     padding: 30px 0px;
     background-color: #0092DB;
+
+    position: relative;
+    top: -155px;
+    right: -40px;
 }    
 
 #pamphletu1948 {
