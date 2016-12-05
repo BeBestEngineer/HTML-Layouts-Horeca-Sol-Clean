@@ -71,6 +71,11 @@ a:visited {
     border: 2px solid #DBAB20;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.section-1-form-submit:hover {
+    background-color: #fff;
 }
 
 .help-block {
@@ -90,7 +95,7 @@ a:visited {
 }
 
 .get-a-sample-form-error {
-    border: 2px solid #FFFF00;
+    box-shadow: 1px 1px 12px 2px #FFFF00;
 }
 
 .get-a-sample-form-error-message {
@@ -305,11 +310,26 @@ a:visited {
 }
 
 .means-for-dishwashers-catalog-wrapper {
-    height: 1620px;
+    height: 2290px;
 }
 
 .catal .means-for-dishwashers-catalog {
     top: 120px;
+}
+
+.means-for-dishwashers-catalog-title{
+    min-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;    
+}
+
+.means-for-dishwashers-catalog-title-doz {
+    min-height: 100px;
+}
+
+.means-for-dishwashers-catalog-description {
+/*    min-height: 129px;    */
 }
 
 #page {
@@ -487,11 +507,10 @@ a.main-nav-link:hover {
 
 .form-wrapper {
     margin: 0px 60px;
-    padding: 30px 0px 44px;
+    padding: 30px 30px 44px;
     background-color: #0092DB;
-
-    position: relative;
-    top: -195px;
+    position: absolute;
+    bottom: -19px;
     right: -40px;
 }    
 
