@@ -46,3 +46,46 @@ line-height: 17px;
 #u1484-4 {
     left: 300px;
 }
+
+#u478 {
+    /* first screen bckground image */
+    height: 714px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.first-screen-bg {
+    position: absolute;
+    bottom: -336px;
+    left: 1%;
+    width: 98%;
+    height: 423px;
+    z-index: -1;
+}
+
+#u492-2 {
+    padding: 2px 8px;
+}
+
+.color-333333 {
+    color: #333333;
+}
+
+.color-333333-bg {
+    background-color: #333333;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;    
+}
+
+.first-screen-text {
+    position: relative;
+    top: -105px;
+}

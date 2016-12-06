@@ -7,6 +7,13 @@ a:visited {
     color: black;
 }
 
+.color-333333 {
+    color: #333333;
+}
+
+.color-333333-bg {
+    background-color: #333333;
+}
 
 .first-screen-jerrycan {
     position: absolute;
@@ -14,11 +21,24 @@ a:visited {
     left: 44%;
 }
 
+.first-screen-bg {
+    position: absolute;
+    bottom: 28%;
+    left: 43%;
+    width: 69%;
+    height: 42%;
+}
+
+img.first-screen-image {
+    width: 100%;
+    max-height: unset;
+}
+
 .first-screen-overlay {   
     position: absolute;
     width: 69%;    
     top: 00px;
-    bottom: -10px;
+    bottom: -19px;
     left: -10px;
     opacity: 0.7;
     background-color: #000;    
@@ -541,7 +561,10 @@ a.main-nav-link:hover {
 }
 
 #u478 {
+    /* first screen bckground image */
     height: 714px;
+    background: #fff;
+    overflow: hidden;
 }
 
 .features-oneline-text {
