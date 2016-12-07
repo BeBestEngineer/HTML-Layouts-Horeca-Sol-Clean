@@ -1,0 +1,128 @@
+<manifest alg="2" build="11" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432575609028">
+  <folder name="fonts">
+    <file name="myriadproregular.woff" crc="4204364508"/>
+    <file name="myriadproregular.eot" crc="442023682"/>
+    <file name="myriadprobold.woff" crc="4251696467"/>
+    <file name="myriadprobold.eot" crc="3870324764"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="422415861"/>
+    <file name="master_______-a.css" crc="4131114720" ref="thank-you:index"/>
+    <file name="thank-you.css" crc="3819476460" ref="thank-you"/>
+    <file name="iefonts_thank-you.css" crc="4093058601" ref="thank-you"/>
+    <file name="index.css" crc="391274790" ref="index"/>
+    <file name="iefonts_index.css" crc="323065678" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:thank-you"/>
+    <file name="museutils.js" crc="521960461" ref="index:thank-you"/>
+    <file name="jquery.scrolleffects.js" crc="4038615763" ref="index:thank-you"/>
+    <file name="jquery.watch.js" crc="56779320" ref="index:thank-you"/>
+    <file name="jquery.musemenu.js" crc="397543671" ref="index:thank-you"/>
+    <file name="pie.js" crc="3827607177" ref="index:thank-you"/>
+    <file name="webpro.js" crc="220831917" ref="index:thank-you"/>
+    <file name="form_check.php" crc="218543696" ref="index:thank-you"/>
+    <file name="form_throttle.php" crc="3988545917" ref="index:thank-you"/>
+    <file name="form_process.php" crc="4264751530" ref="index:thank-you"/>
+    <file name="musewpslideshow.js" crc="224651946" ref="index:thank-you"/>
+    <file name="jquery.museoverlay.js" crc="276313855" ref="index:thank-you"/>
+    <file name="touchswipe.js" crc="325405309" ref="index:thank-you"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="index:thank-you"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:thank-you"/>
+    <file name="form-u4836.php" crc="3829629519" ref="index"/>
+    <file name="form-u4956.php" crc="412779466" ref="index"/>
+    <file name="form-u4988.php" crc="4173421975" ref="index"/>
+    <file name="form-u5014.php" crc="4233529683" ref="index"/>
+    <file name="form-u5041.php" crc="42991495" ref="index"/>
+    <file name="form-u5067.php" crc="3881311023" ref="index"/>
+    <file name="form-u5096.php" crc="208218311" ref="index"/>
+    <file name="form-u5239.php" crc="71916797" ref="index:thank-you"/>
+    <file name="form-u5301.php" crc="3969649982" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="logo.png" crc="37722673" ref="index:thank-you"/>
+    <file name="pop perezvonite.jpg" crc="4294857388" ref="index:thank-you"/>
+    <file name="01.png" crc="24344799" ref="index"/>
+    <file name="02.jpg" crc="4027393559" ref="index"/>
+    <file name="03.jpg" crc="4122863760" ref="index"/>
+    <file name="ugli.png" crc="3772748778" ref="index"/>
+    <file name="knopka 01.png" crc="4063290154" ref="index"/>
+    <file name="knopka 02.png" crc="245978716" ref="index"/>
+    <file name="strelka left.png" crc="4184047612" ref="index"/>
+    <file name="strelka right.png" crc="142834790" ref="index"/>
+    <file name="fon clients.jpg" crc="317231553" ref="index"/>
+    <file name="logo clients.png" crc="4094829411" ref="index"/>
+    <file name="10.png" crc="3898151747" ref="index"/>
+    <file name="fon otzivi.jpg" crc="3958715783" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="strelka left 2.png" crc="13228865" ref="index"/>
+    <file name="strelka right 2.png" crc="234838603" ref="index"/>
+    <file name="mashinka.png" crc="250078503" ref="index"/>
+    <file name="mashinka 2.png" crc="3892820433" ref="index"/>
+    <file name="mashinka 3.png" crc="1544746" ref="index"/>
+    <file name="mashinka 4.png" crc="4238489898" ref="index"/>
+    <file name="mashinka 5.png" crc="115394391" ref="index"/>
+    <file name="mashinka 6.png" crc="440409665" ref="index"/>
+    <file name="mashinka 7.png" crc="3784521988" ref="index"/>
+    <file name="fon horeca.jpg" crc="4214860066" ref="index"/>
+    <file name="karta.png" crc="4242415733" ref="index"/>
+    <file name="long perezv 01.png" crc="25445358" ref="thank-you"/>
+    <file name="long perezv 02.png" crc="4020110445" ref="thank-you"/>
+    <file name="long perezv 03.png" crc="4091438422" ref="thank-you"/>
+    <file name="otziv big 1.jpg" crc="4125407149" ref="index"/>
+    <file name="list_otziv 1.png" crc="3998192301" ref="index"/>
+    <file name="otziv big 2.jpg" crc="483124284" ref="index"/>
+    <file name="list_otziv 2.png" crc="15255069" ref="index"/>
+    <file name="otziv big 3.jpg" crc="511792657" ref="index"/>
+    <file name="list_otziv 3.png" crc="4290270254" ref="index"/>
+    <file name="fon shapka 4.jpg" crc="3957118743" ref="index:thank-you"/>
+    <file name="long perezv 01-u4850-17.png" crc="4148881761" ref="index"/>
+    <file name="long perezv 02-u4850-17-r.png" crc="4025724967" ref="index"/>
+    <file name="long perezv 03-u4850-17-m.png" crc="408760230" ref="index"/>
+    <file name="long perezv 01-u4850-17-fs.png" crc="4148881761" ref="index"/>
+    <file name="long perezv 01-u4957-17.png" crc="310237798" ref="index"/>
+    <file name="long perezv 02-u4957-17-r.png" crc="4044947468" ref="index"/>
+    <file name="long perezv 03-u4957-17-m.png" crc="4142782232" ref="index"/>
+    <file name="long perezv 01-u4957-17-fs.png" crc="310237798" ref="index"/>
+    <file name="long perezv 01-u4989-17.png" crc="310237798" ref="index"/>
+    <file name="long perezv 02-u4989-17-r.png" crc="4044947468" ref="index"/>
+    <file name="long perezv 03-u4989-17-m.png" crc="4142782232" ref="index"/>
+    <file name="long perezv 01-u4989-17-fs.png" crc="310237798" ref="index"/>
+    <file name="long perezv 01-u5015-17.png" crc="310237798" ref="index"/>
+    <file name="long perezv 02-u5015-17-r.png" crc="4044947468" ref="index"/>
+    <file name="long perezv 03-u5015-17-m.png" crc="4142782232" ref="index"/>
+    <file name="long perezv 01-u5015-17-fs.png" crc="310237798" ref="index"/>
+    <file name="long perezv 01-u5042-17.png" crc="3912934885" ref="index"/>
+    <file name="long perezv 02-u5042-17-r.png" crc="96959051" ref="index"/>
+    <file name="long perezv 03-u5042-17-m.png" crc="79513934" ref="index"/>
+    <file name="long perezv 01-u5042-17-fs.png" crc="3912934885" ref="index"/>
+    <file name="long perezv 01-u5245-17.png" crc="4133279504" ref="index:thank-you"/>
+    <file name="long perezv 02-u5245-17-r.png" crc="223581451" ref="index:thank-you"/>
+    <file name="long perezv 03-u5245-17-m.png" crc="3974551395" ref="index:thank-you"/>
+    <file name="long perezv 01-u5245-17-fs.png" crc="4133279504" ref="index:thank-you"/>
+    <file name="tovar 01-01.png" crc="188654335" ref="index"/>
+    <file name="tovar 01-02.png" crc="117211352" ref="index"/>
+    <file name="tovar 01-03.png" crc="295469960" ref="index"/>
+    <file name="tovar 02-01.png" crc="3836651419" ref="index"/>
+    <file name="tovar 02-02.png" crc="140183137" ref="index"/>
+    <file name="tovar 02-03.png" crc="262078569" ref="index"/>
+    <file name="tovar 03-01.png" crc="4141575167" ref="index"/>
+    <file name="tovar 03-02.png" crc="4111459184" ref="index"/>
+    <file name="tovar 03-03.png" crc="35277530" ref="index"/>
+    <file name="long perezv 01-u5313-17.png" crc="4133279504" ref="index"/>
+    <file name="long perezv 02-u5313-17-r.png" crc="223581451" ref="index"/>
+    <file name="long perezv 03-u5313-17-m.png" crc="3974551395" ref="index"/>
+    <file name="long perezv 01-u5313-17-fs.png" crc="4133279504" ref="index"/>
+    <file name="knopka 03-u5068-17.png" crc="225300914" ref="index"/>
+    <file name="knopka 04-u5068-17-r.png" crc="4225809129" ref="index"/>
+    <file name="knopka 04-u5068-17-m.png" crc="4225809129" ref="index"/>
+    <file name="knopka 03-u5068-17-fs.png" crc="225300914" ref="index"/>
+    <file name="knopka 03-u5101-17.png" crc="225300914" ref="index"/>
+    <file name="knopka 04-u5101-17-r.png" crc="4225809129" ref="index"/>
+    <file name="knopka 04-u5101-17-m.png" crc="4225809129" ref="index"/>
+    <file name="knopka 03-u5101-17-fs.png" crc="225300914" ref="index"/>
+  </folder>
+  <file name="index.html" crc="373054113" mt="1432575495324" redirect="true"/>
+  <file name="thank-you.html" crc="13218619" mt="1432575502989" redirect="true"/>
+</manifest>
