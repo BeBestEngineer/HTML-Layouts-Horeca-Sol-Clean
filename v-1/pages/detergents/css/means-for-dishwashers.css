@@ -16,6 +16,10 @@ a:visited {
     color: #333333;
 }
 
+.color-000000 {
+    color: #000000;
+}
+
 .color-333333-bg {
     background-color: #333333;
 }
@@ -32,9 +36,9 @@ a:visited {
 
 .first-screen-bg {
     position: absolute;
-    bottom: 10%;
-    left: 29%;
-    width: 49%;
+    bottom: 9%;
+    left: 19%;
+    width: 60%;
     height: 40%;
 }
 
@@ -58,8 +62,37 @@ img.first-screen-image {
 }
 
 .first-screen-above-text {
+    margin-top: 10px;
     position: relative;
     z-index: 100000;
+}
+
+#u492-2 {
+    padding: 0px 10px;
+}
+
+.first-screen-banner-1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 30px 20px 64px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    background: url(../images/monet.png) no-repeat 10px 7px;
+    background-color: rgba(255,255,0,0.8);
+}
+
+.first-screen-banner-2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 40px;
+    margin-left: 30px;
+    background-color: rgba(255,255,0,0.8);
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: uppercase;
 }
 
 .none {
@@ -316,11 +349,11 @@ img.first-screen-image {
 #pamphletu506 {
     margin-top: 0;
     margin-bottom: 100px;
-    top: 1100px;
+    top: 520px;
 }
 
 #u4793-4 {
-    color: #333333;
+color: #FFE400;
 }
 
 .advantages-list {
@@ -542,12 +575,18 @@ a.main-nav-link:hover {
 }
 
 #u492-3 {
-    font-size: 24px;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;    
 }
 
-#u492-6 {
-    font-size: 50px;
-    line-height: 50px;
+#u492-6 {    
+    margin-bottom: 140px;
+    font-size: 28px;
+    line-height: 31px;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
 }
 
 #u2038-4 {
@@ -590,9 +629,11 @@ a.main-nav-link:hover {
 }
 
 #u492-6 {
-    text-align: left;
-    width: 54%;
-    font-size: 41px;
+    width: 100%;
+}
+
+.features-oneline-text {
+    visibility: hidden;
 }
 
 .form-wrapper {
