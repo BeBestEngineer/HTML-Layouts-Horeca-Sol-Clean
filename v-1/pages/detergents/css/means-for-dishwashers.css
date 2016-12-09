@@ -33,6 +33,11 @@ a:visited {
     color: #133581;
 }
 
+p.first-screen-title {
+    margin-top: 0;
+    opacity: 0.9;
+}
+
 .first-screen-jerrycan {
     position: absolute;
     bottom: -3%;
@@ -43,6 +48,7 @@ a:visited {
 /*    margin-left: 34%;*/
     display: inline-block;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 .first-screen-bg {
@@ -644,7 +650,7 @@ a.main-nav-link:hover {
 }
 
 .features-oneline-text {
-    font-size: 24px;
+    font-size: 17px;
 }
 
 #u478_align_to_page {

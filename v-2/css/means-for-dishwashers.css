@@ -24,6 +24,11 @@ a:visited {
     color: #133581;
 }
 
+p.first-screen-title {
+    margin-top: 0;
+    opacity: 0.9;
+}
+
 .first-screen-jerrycan {
     position: absolute;
     bottom: -3%;
@@ -32,10 +37,11 @@ a:visited {
 
 .first-screen-bg {
     position: absolute;
-    bottom: 23%;
-    left: 47%;
-    width: 69%;
+    top: 78%;
+    left: 54%;
+    width: 52%;
     height: 42%;
+    right: -125px;
 }
 
 img.first-screen-image {
@@ -593,7 +599,7 @@ a.main-nav-link:hover {
 }
 
 .features-oneline-text {
-    font-size: 24px;
+    font-size: 17px;
 }
 
 #u478_align_to_page {
@@ -616,7 +622,7 @@ a.main-nav-link:hover {
     padding: 30px 30px 44px;
     background-color: #0092DB;
     position: absolute;
-    top: 66%;
+    top: 67%;
     right: -15px;
     z-index: 10000;
 }    
