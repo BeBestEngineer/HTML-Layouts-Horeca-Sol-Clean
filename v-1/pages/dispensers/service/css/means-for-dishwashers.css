@@ -1,0 +1,738 @@
+.spacer-20 {
+    display: block;
+    height: 20px;
+}
+
+.spacer-5 {
+    display: block;
+    height: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.color-333333 {
+    color: #333333;
+}
+
+.color-000000 {
+    color: #000000;
+}
+
+.color-333333-bg {
+    background-color: #333333;
+}
+
+.color-133581 {
+    color: #133581;
+}
+
+.first-screen-jerrycan {
+    position: absolute;
+    bottom: -3%;
+    left: 44%;
+}
+
+.first-screen-list {
+/*    margin-left: 30%;*/
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.first-screen-bg {
+    position: absolute;
+    width: 900px;
+    height: 43%;
+    bottom: 1%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img.first-screen-image {
+    max-height: 100%;
+}
+
+.first-screen-overlay {   
+    position: absolute;
+    width: 69%;    
+    top: 00px;
+    bottom: -19px;
+    left: -10px;
+    opacity: 0.7;
+    background-color: #000;    
+}
+
+#u2061-4 {
+    position: absolute;
+    left: 981px !important;
+}
+
+#u2862-4 {
+    position: absolute;
+    left: 984px !important;
+}
+
+#pamphletu2062 {
+    position: absolute;
+    left: 1022px !important;
+}
+
+#u2029 {
+    opacity: 0.7 !important;
+}
+
+.first-screen-above-text {
+/*    margin-top: 10px;*/
+    position: relative;
+    z-index: 100000;
+}
+
+#u492-2 {
+    padding: 0px 10px;
+}
+
+.first-screen-banner-1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 30px 20px 64px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    background: url(../images/monet.png) no-repeat 10px 7px;
+    background-color: rgba(255,255,0,0.8);
+}
+
+.first-screen-banner-2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 40px;
+    margin-left: 30px;
+    background-color: rgba(255,255,0,0.8);
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.none {
+    display: none;
+}
+
+/*Text Styles*/
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-weight {
+    font-weight: bold;
+}
+
+.features-oneline-text {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 10px;
+}
+
+.features-pre-form-text {
+    font-size: 28px;
+    line-height: 31px;
+}
+/*Text Styles*/
+
+/*Form Styles*/
+.section-1-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-input {
+    display: block;
+    margin: 10px auto 30px;
+    width: 200px;
+    height: 32px;
+    padding: 0 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.section-1-form-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #E5CD0C;
+    border: 2px solid #DBAB20;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.section-1-form-submit:hover {
+    background-color: #fff;
+}
+
+.help-block {
+    color: #FFFF00;
+}
+
+.submit-result {
+    position: relative;
+}
+
+.submit-result-message {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9px;
+    color: #FFFF00;
+}
+
+.get-a-sample-form-error {
+    box-shadow: 1px 1px 12px 2px #FFFF00;
+}
+
+.get-a-sample-form-error-message {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    left: 0;
+}
+
+/*Form Styles*/
+
+/*Sections Styles*/
+.section-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #333333;
+    line-height: 43px;
+    text-align: center;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.section-description-left-60 {
+    width: 60%;
+    float: left;
+}
+
+.section-description-right-40 {
+    width: 40%;
+    float: left;
+}
+
+
+.section-description-70 {
+    width: 70%;
+    float: left;
+    
+}
+
+.section-description-30 {
+    width: 30%;
+    float: left;    
+}
+
+.section-description-33 {
+    width: 33%;
+    float: left;
+}
+
+.section-description-38 {
+    width: 38%;
+    float: left;
+    
+}
+
+.section-description-57 {
+    width: 57%;
+    float: left;
+    
+}
+
+.section-description-40 {
+    width: 40%;
+    float: left;
+    
+}
+
+.section-description-60 {
+    width: 60%;
+    float: left;
+    
+}
+
+.section-description-20 {
+    width: 20%;
+    float: left;    
+}
+
+.section-description-55 {
+    width: 55%;
+    float: left;    
+}
+
+.section-description-43 {
+    width: 43%;
+    float: left;    
+}
+
+.section-description {
+    padding: 5px 0px 20px;
+}
+
+.section-features-padding {
+    height: 500px;
+    text-outline: 165px;
+}
+
+.catal .section-features-top-1 {
+    top: 165px;
+}
+
+.section-features-title {
+    height: 100px;
+}
+
+.catal .catal-wrap > div.section-features-some-feature {
+    border: none;
+}
+
+.section-features-button-link {
+    display: block;
+    font-size: 17px;
+    padding: 13px 0px;
+    margin: 15px auto;
+    width: 313px;
+    padding-right: 10%;
+    background: transparent url("../images/01.png") no-repeat center center;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.section-features-button-link:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.section-features,
+.section-about-company,
+.section-seo,
+.section-types-of-washing-machines {
+    width: 1000px;
+    margin-left: 160px;
+}
+
+.types-of-washing-machines-list {
+    margin-top: 15px;
+    padding: 0px 10px;
+/*    margin-bottom: 100px;*/
+}
+
+.types-of-washing-machines-item:nth-child(3) {
+    width: 34%;
+}
+
+.types-of-washing-machines-image {
+    display: block;
+    height: 200px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.types-of-washing-machines-description {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+    line-height: 22px;
+    font-family: '__Myriad Pro_5';
+}
+
+/*ПОЛУЧИТЬ ПОЛНЫЙ ПРАЙС-ЛИСТ - кнопка*/
+#pamphletu506 {
+    margin-top: 0;
+    margin-bottom: 100px;
+    top: 520px;
+}
+
+#u4793-4 {
+color: #FFE400;
+}
+
+.advantages-list {
+    text-align: justify;
+}
+
+.advantage-item, .advantage-text {
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
+    position: relative;
+    text-align: justify;
+}
+
+.advantage-item-number:before {
+    content: "\f05c";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 40px;
+    color: #F15A24;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+}
+
+.advantage-image-item {
+    width: 40%; 
+    display: inline-block;
+}
+
+.advantage-item-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.advantage-item-text {
+    margin-left: 50px;
+}
+
+.section-advantages-padding {
+    height: 650px;
+    margin-bottom: 320px;
+}
+
+.advantages-distinction {
+    margin-top: 20px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+img.advantages-list-image {
+    margin: 30px 0px 0px 0px;
+    max-height: unset;    
+}
+
+.advantages-list-image-height {
+    height: 300px;
+}
+
+.advantages-list-image-wrapper {
+    width: 40%;
+}
+
+.catal .catal-wrap > div .means-for-dishwashers-submit-request {
+    font-size: 17px;   
+    padding-left: 60px;
+}
+
+.means-for-dishwashers-catalog-wrapper {
+    height: 2290px;
+}
+
+.catal .means-for-dishwashers-catalog {
+    top: 120px;
+}
+
+.means-for-dishwashers-catalog-title{
+    min-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;    
+}
+
+.means-for-dishwashers-catalog-title-doz {
+    min-height: 100px;
+}
+
+.means-for-dishwashers-catalog-description {
+/*    min-height: 129px;    */
+}
+
+#page {
+    min-height: unset;
+}
+
+.section-about-company-wrapper,
+.section-partners-wrapper,
+.section-seo-wrapper,
+.section-types-of-washing-machines-wrapper {
+    margin-top: 20px;
+}
+
+.section-about-company-description {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.masonry-grid-about-h50 {
+    height: 95px;
+}
+
+.masonry-grid-about-h100 {
+    height: 200px;
+}
+
+.masonry-grid-item, .image-wrapper {
+  overflow: hidden;
+    position: relative;
+    margin-top: 10px;    
+    margin-left: 10px;    
+}
+
+.masonry-grid-item-image, .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;    
+}
+
+.about-company-height,
+.seo-height,
+.types-of-washing-machines-height {
+    height: auto;
+}
+
+.partnet-item {
+    height: 100px;
+    margin: 0;    
+}
+
+#pu3931-7 {
+    margin-top: 60px;
+}
+
+#page_position_content {
+    width: 100%;
+
+    float: none;
+}
+
+.header-wrapper {
+    height: 100%;
+    position: relative;
+}
+
+/*First screen*/
+#pu2029 {
+    width: 1320px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    height: 90px;
+    position: fixed;
+    z-index: 10000;
+}
+
+.main-nav {
+    height: 88px;
+    position: absolute;
+    left: 440px;
+    top: 0;
+    z-index: 10000;
+    width: 560px;
+    /*margin-left: -245px;*/
+}
+
+.main-nav-item {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+}
+
+.main-nav-item:nth-child(1) {
+    width: 26%;
+}
+
+.main-nav-item:nth-child(2) {
+    width: 35%;
+}
+
+.main-nav-item:nth-child(3) {
+    width: 33%;
+}
+
+.main-nav-list {
+    margin-top: 29px;    
+}
+
+a.main-nav-link {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a.main-nav-link:hover {
+    color: #FFFF00;
+}
+
+#u492-3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;    
+}
+
+#u492-6 {    
+    
+    font-size: 41px;
+    line-height: 41px;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
+}
+
+#u2038-4 {
+    left: 55px;    
+}
+#menuu2032 {
+    width: 44%;
+}
+
+#u2054 {
+    width: 160px;
+}
+
+#u2033 {
+    left: 305px;
+    width: 260px;
+}
+
+#u2058-4 {
+    width: 130px;
+}
+
+#u478 {
+    /* first screen bckground image */
+    height: 714px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.features-oneline-text {
+    font-size: 24px;
+}
+
+#u478_align_to_page {
+    padding-top: 100px;
+}
+
+#u492-10 {
+    margin-left: 10px;
+}
+
+#u492-6 {
+    width: 100%;
+}
+
+.features-oneline-text {
+/*    visibility: hidden;*/
+}
+
+.form-wrapper {
+    margin: 0px 60px;
+    padding: 30px 30px 44px;
+    background-color: #0092DB;
+    position: absolute;
+    top: 31%;
+    right: -15px;
+    z-index: 10000;
+}    
+
+.form-wrapper label, .form-wrapper .features-pre-form-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: '__Myriad Pro_5';
+    font-weight: 400;
+}
+
+#pamphletu1948 {
+    width: 1040px;
+}
+
+#u1958 {
+    left: -10px;
+}
+
+
+
+.footer-menu-list {
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.footer-menu-item {
+    margin-bottom: 10px;
+}
+
+a.footer-menu-link {
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+}
+
+/*Seo text*/
+.seo-row-height {
+    height: 200px;
+}
+
+#u1958 {
+    width: 210px;
+    left: -10px;
+}
+
+#u1957 {
+    padding: 20px 0px;
+}
+
+#u1484-4 {
+    left: 300px;
+}
+/*Seo text*/
+
+/*
+about-company
+catalog-dishwashers
+how
+*/
