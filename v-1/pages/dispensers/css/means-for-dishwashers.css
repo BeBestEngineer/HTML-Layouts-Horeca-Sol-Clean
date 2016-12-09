@@ -3,6 +3,11 @@
     height: 20px;
 }
 
+.spacer-5 {
+    display: block;
+    height: 5px;
+}
+
 a:link {
     text-decoration: none;
     color: black;
@@ -34,17 +39,24 @@ a:visited {
     left: 44%;
 }
 
+.first-screen-list {
+/*    margin-left: 30%;*/
+    display: inline-block;
+    margin: 0 auto;
+}
+
 .first-screen-bg {
     position: absolute;
-    bottom: 13%;
-    left: 19%;
-    width: 60%;
-    height: 41%;
+    width: 900px;
+    height: 43%;
+    bottom: 1%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 img.first-screen-image {
-    width: 100%;
-    max-height: unset;
+    max-height: 100%;
 }
 
 .first-screen-overlay {   
@@ -57,12 +69,27 @@ img.first-screen-image {
     background-color: #000;    
 }
 
+#u2061-4 {
+    position: absolute;
+    left: 981px !important;
+}
+
+#u2862-4 {
+    position: absolute;
+    left: 984px !important;
+}
+
+#pamphletu2062 {
+    position: absolute;
+    left: 1022px !important;
+}
+
 #u2029 {
     opacity: 0.7 !important;
 }
 
 .first-screen-above-text {
-    margin-top: 10px;
+/*    margin-top: 10px;*/
     position: relative;
     z-index: 100000;
 }
@@ -274,7 +301,7 @@ img.first-screen-image {
 }
 
 .section-description {
-    padding: 30px 0px 0px;
+    padding: 5px 0px 20px;
 }
 
 .section-features-padding {
@@ -322,7 +349,7 @@ img.first-screen-image {
 .types-of-washing-machines-list {
     margin-top: 15px;
     padding: 0px 10px;
-    margin-bottom: 100px;
+/*    margin-bottom: 100px;*/
 }
 
 .types-of-washing-machines-item:nth-child(3) {
@@ -353,7 +380,7 @@ img.first-screen-image {
 }
 
 #u4793-4 {
-    color: #FFE400;
+color: #FFE400;
 }
 
 .advantages-list {
@@ -575,16 +602,16 @@ a.main-nav-link:hover {
 }
 
 #u492-3 {
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 24px;
+    line-height: 30px;
     font-family: '__Myriad Pro_5';
     font-weight: 400;    
 }
 
 #u492-6 {    
-    margin-bottom: 140px;
-    font-size: 28px;
-    line-height: 31px;
+    
+    font-size: 41px;
+    line-height: 41px;
     font-family: '__Myriad Pro_5';
     font-weight: 400;
 }
@@ -633,7 +660,7 @@ a.main-nav-link:hover {
 }
 
 .features-oneline-text {
-    visibility: hidden;
+/*    visibility: hidden;*/
 }
 
 .form-wrapper {

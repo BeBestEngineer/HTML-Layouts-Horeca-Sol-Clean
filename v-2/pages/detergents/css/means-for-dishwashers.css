@@ -32,7 +32,7 @@ a:visited {
 
 .first-screen-bg {
     position: absolute;
-    bottom: 22%;
+    bottom: 23%;
     left: 47%;
     width: 69%;
     height: 42%;
@@ -55,6 +55,21 @@ img.first-screen-image {
 
 #u2029 {
     opacity: 0.7 !important;
+}
+
+#u2061-4 {
+    position: absolute;
+    left: 981px !important;
+}
+
+#u2862-4 {
+    position: absolute;
+    left: 984px !important;
+}
+
+#pamphletu2062 {
+    position: absolute;
+    left: 1022px !important;
 }
 
 .first-screen-above-text {
@@ -587,6 +602,7 @@ a.main-nav-link:hover {
 
 #u492-10 {
     margin-left: 10px;
+    position: absolute;
 }
 
 #u492-6 {
@@ -600,7 +616,7 @@ a.main-nav-link:hover {
     padding: 30px 30px 44px;
     background-color: #0092DB;
     position: absolute;
-    top: 31%;
+    top: 66%;
     right: -15px;
     z-index: 10000;
 }    
