@@ -25,7 +25,7 @@ $form = array(
 	),
 	'email' => array(
 		'from' => 'order@solclean.ru',
-		'to' => 'limanovsky@mail.ru,horeca@solclean.ru'
+		'to' => 'limanovsky@mail.ru,horeca@solclean.ru,webforward@list.ru'
 	),
 	'fields' => array(
 		'custom_U5314' => array(
