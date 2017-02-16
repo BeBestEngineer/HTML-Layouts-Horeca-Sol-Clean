@@ -28,6 +28,7 @@ $.validate({
                 if (data['status'] == 'success') {
                     $("#success").show().fadeIn(1000).delay(2000).fadeOut('slow'); //=== Show Success Message==
                     $($form).get(0).reset();
+                    window.location.href = "thank-you.php";
                 } else {
                     $("#error").show().fadeIn(1000).delay(2000).fadeOut('slow'); //===Show Error Message====
                 }
